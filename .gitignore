@@ -1,0 +1,17 @@
+node_modules
+# Keep environment variables out of version control
+.env*
+.env.local
+
+logs/*
+!.gitkeep
+
+dist/*
+!.gitkeep
+
+.turbo
+
+*.tsbuildinfo
+
+package-lock.json
+.aws/credentials
